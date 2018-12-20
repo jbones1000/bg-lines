@@ -1,11 +1,14 @@
 var array1 = []
-var arrayNum, xamt, yamt
+var arrayNum, xamt, yamt, r, g, b
 
 function setup() {
   var myCanvas = createCanvas(1600, 800);
   myCanvas.parent('myContainer');
   xamt = parseInt(width/100);
   yamt = parseInt(height/100);
+  r = parseInt(random(50, 250));
+  g = parseInt(random(50, 250));
+  b = parseInt(random(50, 250));
   var arrayNum = 3*(xamt+yamt);
   //var array1 = Array(arrayNum);
   for (var x = 0; x < arrayNum; x++) {
