@@ -19,6 +19,7 @@ function setup() {
 }
 
 function draw() {
+  j = sin(++);
   
   
   for (var x = 0; x < 12; x++) {
